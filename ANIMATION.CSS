@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    /* position: absolute; */
+}
+
+
+
+.bg{
+    background-image:url(./images/bg.jpeg);
+    height:600px;
+    width:1366px;
+    overflow: hidden;
+}
+
+.white{
+    height: 23vh;
+    width: 20vw;
+    position: relative;
+    left: 100%;
+    top: 49%;
+    animation-name: fstcar;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes fstcar {
+    from{
+      left: 100%;
+    }
+    to{
+      left: -20%;
+    }
+  }
+  .fstcar{
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+  }
+
+  .trone{
+    height: 11vh;
+    width: 5vw;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: -5px;
+    animation-name: tr;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes tr {
+    from{
+      transform: rotate(10deg);
+    }
+    to{
+      transform: rotate(-360deg);
+    }
+}
+
+.trtwo{
+    left: 71%;
+  }
+
+
+  .carto{
+    height: 23vh;
+    width: 20vw;
+    position: relative;
+    left: 100%;
+    top: -226px;
+    animation-name: alter;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    overflow: hidden;
+    z-index:-100px;
+  }
+
+  @keyframes alter {
+    from{
+      left: 100%;
+    }
+    to{
+      left: -20%;
+    }
+  }
+  .alter{
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .trones{
+    height: 11vh;
+    width: 5vw;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    animation-name: tr;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes tr {
+    from{
+      transform: rotate(20deg);
+    }
+    to{
+      transform: rotate(-360deg);
+    }
+}
+
+.trtwo{
+    left: 71%;
+  }
+
+
+  .crafto{
+    height: 23vh;
+    width: 20vw;
+    position: relative;
+    left: 100%;
+    top: -450px;
+    animation-name: alter;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    overflow: hidden;
+    z-index:700;
+  }
+
+  @keyframes alter {
+    from{
+      left: 100%;
+    }
+    to{
+      left: -20%;
+    }
+  }
+  .alter{
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+    overflow: hidden;
+  }
+
+
+
+  .trones{
+    height: 10vh;
+    width: 4vw;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    animation-name: tr;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes tr {
+    from{
+      transform: rotate(9deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+}
+
+.trtwo{
+    left: 71%;
+  }
+
+
+  .red {
+    z-index: 20;
+  }
+
+  .green {
+    z-index: 100;
+  }
